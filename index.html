@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+   
+    <title>Contact Form </title>
+    <style>
+        *{
+            box-sizing: content-box;
+        }
+        body{
+           
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            margin: 20px 20px;
+            font-size: 17px;
+            padding: 8px 15px;
+        
+        }
+        H1{
+            background-color: chartreuse;
+            font-size: 30px;
+            text-align: center;
+            border: 1px solid black;
+            border-radius: 10px;
+            padding: 12px;
+            
+            }
+            
+            .container{
+                background-color: #f2f2f2;
+                padding: 5px 20px 15px 20px;
+                border-radius: 4px;
+            }
+            input[type="text"]
+            
+            {
+                width:98%;
+                padding: 12px;
+                border: 1px solid #ccc;
+                border-radius: 10px;
+                
+
+            }
+            input[type="email"]
+            {
+                width: 98%;
+                border: 1px solid #eee;
+                border-radius: 10px;
+                padding: 12px;
+            }
+
+            input[type="Number"]
+
+            {
+                width: 98%;
+                border: 1px solid #eee;
+                padding: 12px;
+                border-radius: 10px;
+            }
+            fieldset{
+                width: 98%;
+                background-color: #fff;
+                border: 1px solid #eee;
+                border-radius: 10px;
+                
+            }
+            input[type="submit"]
+            {
+                background-color:rgba(18, 230, 18, 0.821);
+                padding: 15px 20px;
+                color: white;
+                border: none;
+                border-radius: 10px;
+                cursor: pointer;
+                width: 96%;
+            }
+            input[type="submit"]:hover{
+                background-color: green;
+            }
+               
+                    
+            }
+            
+           
+            
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="container">
+    <h1 >Contact Form  </h1>
+   
+    <form action="#" >
+    <p id="demo1" > Name:-<input type="text" id="Name" name="Name" placeholder="Enter Your Name" required></p>
+    <fieldset>
+    <legend>Gender</legend>
+    Male
+    <input type="radio" name="gender" value="male" required> Female <input type="radio" name="gender" value="female" required> </fieldset>
+        <p > Email :- <input type="email" name="Email" id="Email" placeholder="Enter Email" required></p>
+        <p class="demo4"> Address :- <input type="text" name="Address" id="Address" placeholder="Enter Your Address" required></p>
+        <p class="5">Mobile :- <input type="Number" name="Mobile " id="Mobile" placeholder="Enter your Mobile No." required></p>
+      <input type="submit" name="submit" id="submit">
+        
+
+
+</form>
+    
+</div>
+</body>
+</html>
